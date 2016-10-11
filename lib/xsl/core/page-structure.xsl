@@ -101,7 +101,9 @@
     <!-- The header (distinct from the HTML head element) contains the title, subtitle, login box and various
         placeholders for header images -->
     <xsl:template name="buildHeader">
+	
         <div id="ds-header">
+
             <a>
                 <xsl:attribute name="href">
                     <xsl:value-of select="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element='contextPath'][not(@qualifier)]"/>
@@ -109,6 +111,9 @@
                 </xsl:attribute>
                 <span id="ds-header-logo">&#160;</span>
             </a>
+	   <a href="#ds-body" class="hidden" >Saltar a contenido principal</a>
+	 <a href="#ds-search-option-head" class="hidden" >Saltar a la seccion de busqueda</a>
+
             <h1 class="pagetitle">
                 <xsl:choose>
                         <!-- protectiotion against an empty page title -->
@@ -123,7 +128,7 @@
             </h1>
             <h2 class="static-pagetitle"><i18n:text>xmlui.dri2xhtml.structural.head-subtitle</i18n:text></h2>
 
-
+		
             
 
 

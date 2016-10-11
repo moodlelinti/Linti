@@ -44,6 +44,13 @@
         attribute is -->
     <xsl:template match="dri:div" priority="1">
         <xsl:apply-templates select="dri:head"/>
+	<xsl:element name="a" >
+                <xsl:attribute name="href">
+                         <xsl:value-of select="#ds-body"/>
+                </xsl:attribute>
+                 <xsl:value-of select="Saltar a contenido principal"/>
+          </xsl:element>
+
         <xsl:apply-templates select="@pagination">
             <xsl:with-param name="position">top</xsl:with-param>
         </xsl:apply-templates>

@@ -208,6 +208,12 @@
             <xsl:for-each select="/dri:document/dri:meta/dri:pageMeta/dri:metadata[substring(@element, 1, 9) = 'citation_']">
                 <meta name="{@element}" content="{.}"></meta>
             </xsl:for-each>
+	<!--		 <link>
+               <xsl:attribute name="href">
+                         <xsl:value-of select="#ds-body"/>
+                </xsl:attribute>
+                 <xsl:value-of select="Saltar a contenido principal"/>
+          </link>-->
 
         </head>
     </xsl:template>

@@ -34,7 +34,7 @@
 	    <div id="banner_cointainer">
                 <div id="slideshow">
 		    <ul class="slides">
-	    	        <li><img src="themes/Linti/lib/images/slider/1.jpg" width="781" height="320" alt="Facultad de informatica - UNLP" /></li>
+	    	       <!-- <li><img src="themes/Linti/lib/images/slider/1.jpg" width="781" height="320" alt="Facultad de informatica - UNLP" /></li>-->
 			<li><img src="themes/Linti/lib/images/slider/2.jpg" width="781" height="320" alt="Facultad de informatica - UNLP" /></li>
 			<li><img src="themes/Linti/lib/images/slider/3.jpg" width="781" height="320" alt="Facultad de informatica - UNLP" /></li>
 			<li><img src="themes/Linti/lib/images/slider/4.jpg" width="781" height="320" alt="Facultad de informatica - UNLP" /></li>
